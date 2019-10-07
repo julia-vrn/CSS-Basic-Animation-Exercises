@@ -1,0 +1,29 @@
+body {
+    background-color: darkslategrey;
+}
+
+.main-container {
+    width: 900px;
+    height: 900px;
+    border: 2px solid wheat;
+    margin: 0 auto;
+    position: relative;
+}
+
+.box {
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    margin: 30% auto;
+    position: relative;
+  /*  transition-property: background, border-radius, transform;*/
+    transition-property: all;
+    transition-duration: 3s, 1s;
+
+}
+
+.box:hover {
+    background-color: red;
+    border-radius: 50%;
+    transform: rotateY(180deg);
+}

@@ -1,0 +1,40 @@
+body {
+    background-color: darkslategrey;
+}
+
+.main-container {
+    width: 800px;
+    height: 800px;
+    border: 5px solid wheat;
+    position: relative;
+    margin: 0 auto;
+}
+
+.box {
+    background: wheat;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    animation-name: moveBox;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    /*animation-delay: 2s;*/
+   /*animation-direction: reverse;*/
+   animation-timing-function: ease-out;
+}
+
+/*@keyframes moveBox {
+    0% {background-color: wheat; left: 0; top: 0; border-radius: 0}
+    25% {background-color: red; left: 75%; top: 0; border-radius: 20%}
+    50% {background-color: green; left: 75%; top: 75%; border-radius: 50%}
+    75% {background-color: yellow; left: 0; top: 75%;}
+    100% {background-color: wheat; left: 0; top: 0;}
+}*/
+
+@keyframes moveBox {
+    0% {background-color: wheat; left: 0; top: 0; border-radius: 0}
+    25% {background-color: red; left: 75%; top: 0; border-radius: 20%}
+    50% {background-color: green; left: 75%; top: 75%; border-radius: 50%}
+    75% {background-color: yellow; left: 0; top: 75%;}
+    100% {background-color: wheat; left: 0; top: 0;}
+}
